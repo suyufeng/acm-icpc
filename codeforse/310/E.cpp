@@ -105,7 +105,8 @@ int main()
 			int q = get(work[i].y);
 			int t = tree[2].Query(1, p);
 			printf("%d\n", work[i].y - seq[t]);
-			tree[1].insert(1, 1, q, );
+			tree[2].insert(1, p, q, t);
+			tree[1].insert(1, p, q, p);	
 		}
 	}
 	return 0;
